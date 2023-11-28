@@ -9,6 +9,8 @@ from .serializers import ProfileSerializer
 # Create your views here.
 
 
+
+
 @api_view(['GET'])
 def get_api_page(request):
     profile = Profile.objects.all()
